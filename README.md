@@ -10,7 +10,7 @@ Backend: Node.js, Express.js
 
 Database: MySQL
 
-Features
+Features:
 
 User registration & login
 
@@ -24,9 +24,14 @@ Certificate generation (PDF)
 
 MySQL database integration
 
+
+
+
 Project Structure
 backend/   → API, database, certificate logic
 frontend/  → UI components
+
+
 
 How It Works
 
@@ -39,6 +44,8 @@ User submits task/form
 Task is marked as completed
 
 Certificate is generated and downloaded
+
+
 
 How to Run
 # Backend
@@ -55,5 +62,5 @@ Purpose
 
 Designed for internship evaluation, academic projects, and full-stack demonstrations.
 
-✅ Project is complete and ready for evaluation.
+
 
