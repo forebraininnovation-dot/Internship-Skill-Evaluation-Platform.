@@ -57,10 +57,3 @@ Designed for internship evaluation, academic projects, and full-stack demonstrat
 
 ✅ Project is complete and ready for evaluation.
 
-If you want:
-
-even shorter (2–3 lines) version
-
-or college-specific version
-
-just tell me 👍
