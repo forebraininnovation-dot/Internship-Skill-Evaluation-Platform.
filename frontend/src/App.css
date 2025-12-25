@@ -1,0 +1,103 @@
+/* ================= APP WRAPPER ================= */
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ================= REMOVE DEFAULT LOGO & HEADER ================= */
+/* These are intentionally removed because they are not needed
+   for a real project like certificate generation */
+
+.App-logo {
+  display: none;
+}
+
+.App-header {
+  display: none;
+}
+
+.App-link {
+  display: none;
+}
+
+/* ================= PAGE TITLES ================= */
+.page-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* ================= FORM LAYOUT ================= */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #555;
+}
+
+/* ================= BUTTON GROUP ================= */
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+/* ================= DASHBOARD ================= */
+.dashboard {
+  width: 100%;
+}
+
+/* ================= TASK LIST ================= */
+.task-list {
+  margin-top: 20px;
+}
+
+.task-item {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* ================= TASK STATUS ================= */
+.task-status {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.task-status.assigned {
+  background-color: #ffeaa7;
+  color: #7a5c00;
+}
+
+.task-status.completed {
+  background-color: #55efc4;
+  color: #006644;
+}
+
+/* ================= CERTIFICATE BUTTON ================= */
+.certificate-btn {
+  margin-top: 10px;
+}
+
+/* ================= SMALL TEXT ================= */
+.small-text {
+  font-size: 13px;
+  color: #777;
+  text-align: center;
+  margin-top: 10px;
+}
